@@ -199,6 +199,7 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
+# additional part of the project added after the intial submission
 def display_data(df):
     # Displays statistics on bikeshare users.
     view_data = input('\nWould you like to view 5 rows of individual trip data? Enter yes or no\n')
