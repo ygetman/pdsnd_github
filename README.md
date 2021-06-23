@@ -14,5 +14,9 @@ interesting questions about it by computing descriptive statistics. The script t
 chicago.csv, new_york_city.csv, washington.csv
 
 ### Credits
-stackoverflow
+stackoverflow and udacity course material
+
+
+
+
 
