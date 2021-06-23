@@ -87,7 +87,6 @@ def load_data(city, month, day):
     # extract month from the Start Time column to create an month column
     df['month'] = df['Start Time'].dt.month
     # extract day from the Start Time column to create an day column
-    # df['day_of_week'] = df['Start Time'].dt.week # initial attempt
 
     df['day_of_week'] = df['Start Time'].dt.weekday_name
 
@@ -200,6 +199,7 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
+# additional part of the project added after the intial submission
 def display_data(df):
     # Displays statistics on bikeshare users.
     view_data = input('\nWould you like to view 5 rows of individual trip data? Enter yes or no\n')
